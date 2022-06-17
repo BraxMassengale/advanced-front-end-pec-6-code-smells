@@ -1,5 +1,5 @@
 // ANTES
-public class Event {
+class Event {
 
     eventLocationVenue: String
     eventLocationCity: String;
@@ -28,7 +28,7 @@ public class Event {
 
 // DESPUÉS
 
-public class Event {
+class Event {
 
     location: Venue;
     speakers: Speaker[];
@@ -43,14 +43,14 @@ public class Event {
 
 }
 
-public class Venue {
+class Venue {
     name: String
     city: String;
     state: String;
     capacity: number;
 }
 
-public class Speaker {
+class Speaker {
     name: String;
     profession: String;
 
